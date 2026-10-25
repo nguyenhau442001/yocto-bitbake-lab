@@ -19,9 +19,9 @@ This laboratory is designed to build a deep, first-principles understanding of:
 
 ## 🖥️ Target Host & Virtualization Environment
 
-- **Host Machine:** macOS (Apple Silicon M-Series)
+- **Host:** macOS (Apple Silicon)
+- **Build VM:** Ubuntu 24.04 via UTM (virtiofs)
 - **Virtualization Engine:** UTM Virtual Machine (Apple Hypervisor Framework)
-- **Guest OS:** Ubuntu 24.04 / 22.04 LTS (`aarch64` / `ARM64`)
 - **Virtual Hardware Resources:**
   - **vCPU:** 4 – 6 Cores
   - **RAM:** 8 GB+
